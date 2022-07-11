@@ -1,6 +1,6 @@
 .background_blur{
   background-image: url(../public/blur-bg.png);
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
@@ -10,10 +10,11 @@
   left: 0;
   width: 100%;
   height: 100%;
+  overflow-y: scroll;
 }
 
 .create_product_container {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Courier New', Courier, monospace!important;
   display: flex;
   position: fixed;
   top: 50%;
@@ -74,7 +75,7 @@
   box-sizing: border-box;
   margin: 10px 0;
   width: 48%;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Courier New', Courier, monospace!important;
 }
 
 .input[type="file"] {
@@ -132,5 +133,5 @@
   box-sizing: border-box;
   margin: 10px 0;
   width: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Courier New', Courier, monospace!important;
 }
