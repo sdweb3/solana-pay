@@ -7,8 +7,3 @@
 * Portuguese version https://medium.com/@sdweb3/adicione-opção-de-pagamento-com-a-criptomoeda-solana-no-seu-website-em-3-passos-para-leigos-6ba6f2af3a91
 
 
-
-- Next / Solana Adapters
-- IPFS
-- Phantom Wallet
-
