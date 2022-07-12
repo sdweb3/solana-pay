@@ -1,4 +1,4 @@
-# Adding solana payments to your website in 3 steps (for dummies)
+# Solana payments
 
 ![This is an image](https://cloudflare-ipfs.com/ipfs/QmUREtswNNpznPDMBAbaEBY9zrDne3eAgXm97qyeyhFanM)
 
