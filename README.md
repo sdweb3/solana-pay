@@ -1,5 +1,7 @@
 # Solana payments
 
+> npm run dev
+
 ![This is an image](https://cloudflare-ipfs.com/ipfs/QmUREtswNNpznPDMBAbaEBY9zrDne3eAgXm97qyeyhFanM)
 
 
