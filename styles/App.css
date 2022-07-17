@@ -76,14 +76,14 @@
   color:white;
   background-color: transparent;
   transition: all 0.3s ease;
-  font-family: 'Courier New', Courier, monospace!important;
+  font-family: Monaco, monospace!important;
   z-index: 1;
 }
 
 
 .connect-wallet-button {
   color: white;
-  font-family: 'Courier New', Courier, monospace!important;
+  font-family: Monaco, monospace!important;
   background: -webkit-linear-gradient(left, #ff8867, #ff529a);
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
@@ -180,7 +180,7 @@ button:disabled {
   color:white;
   background-color: transparent;
   transition: all 0.3s ease;
-  font-family: 'Courier New', Courier, monospace!important;
+  font-family: Monaco, monospace!important;
   z-index: 1;
 }
 
@@ -192,11 +192,12 @@ button:disabled {
   justify-content: center;
   align-items: center;
   margin: 40px 0px;
-  padding: 20px 70px;
+  /*padding: 20px 70px;
   background-color: white;
-  border-radius: 10px;
-  font-family: 'Courier New', Courier, monospace!important;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 5px 1px;
+  */
+  border-radius: 10px;
+  font-family: Monaco, monospace!important;
   color: black;
 }
 
@@ -222,16 +223,17 @@ button:disabled {
 }
 
 .card-wrapper{
-  margin-top: 30px;
+  margin-top: 50px;
   height: 350px;
-  width: 250px;
+  width: 300px;
   border-radius: 15px;
+  
 }
 
 
 .card-text{
   font-size: 15px!important;
-  font-family: 'Courier New', Courier, monospace!important;
+  font-family: Monaco, monospace!important;
   font-weight: 500!important;
 }
 

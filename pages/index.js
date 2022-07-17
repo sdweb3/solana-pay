@@ -45,7 +45,7 @@ const App = () => {
         <header className="header-container">
           <p className="header"> OpenCorgi</p>
           <p className="sub-text">The World's First Solana Corgi Gif Marketplace</p>
-          <p>The front-end is sloppy because the rockstar is the web3 solana-based payment :-)</p>
+          <p><b>The front-end is sloppy because the rockstar is the web3 solana-based payment</b></p>
           
           {isOwner && (
             <button className="button-wallet-connector" onClick={() => setCreating(!creating)}>
@@ -87,8 +87,7 @@ const App = () => {
           <p className="footnote">
             Hey, did you enjoy the website and want to support my journey on sharing web3 knowledge? 
             <br />
-            this is my <b>buy me a crypto coffee</b> page.
-            <br />
+            This is my <b>buy me a crypto coffee</b> page.
             Powered by Coinbase.
           </p>
         </div>

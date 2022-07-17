@@ -7,7 +7,7 @@
 
 body {
   margin: 0;
-  font-family: 'Courier New', Courier, monospace!important;
+  font-family: Monaco, monospace!important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

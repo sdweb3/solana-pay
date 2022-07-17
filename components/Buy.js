@@ -134,7 +134,7 @@ export default function Buy({ itemID }) {
         <IPFSDownload hash={item.hash} filename={item.filename} />
       ) : (
         <button disabled={loading} className="buy-button" onClick={processTransaction}>
-          Buy a fake web3 corgi 
+          Buy with Solana
         </button>
       )}
     </div>

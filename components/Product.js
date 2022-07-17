@@ -23,7 +23,13 @@ export default function Product({ product }) {
     <div className="card-wrapper">
       <Card sx={{ height: "100%" }} >
      
-        <img src={image_url} alt="" width="100%" height="194px" onError={() => this.img.src = onerror} />
+        <img 
+          src={image_url} alt="" width="100%" height="194px" 
+          onError={({ currentTarget }) => {
+            currentTarget.onerror = null; // prevents looping
+            currentTarget.src="./image/onerror.png";
+          }}
+        />
       
         <CardContent >
           <Typography variant="body2" color="text.secondary" className="card-text">

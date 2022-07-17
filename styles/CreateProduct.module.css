@@ -14,7 +14,7 @@
 }
 
 .create_product_container {
-  font-family: 'Courier New', Courier, monospace!important;
+  font-family: Monaco, monospace!important;
   display: flex;
   position: fixed;
   top: 50%;
@@ -75,7 +75,7 @@
   box-sizing: border-box;
   margin: 10px 0;
   width: 48%;
-  font-family: 'Courier New', Courier, monospace!important;
+  font-family: Monaco, monospace!important;
 }
 
 .input[type="file"] {
@@ -133,5 +133,5 @@
   box-sizing: border-box;
   margin: 10px 0;
   width: 100%;
-  font-family: 'Courier New', Courier, monospace!important;
+  font-family: Monaco, monospace!important;
 }
